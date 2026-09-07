@@ -1,5 +1,6 @@
-import 'package:lab1_dart/lab1_dart.dart' as lab1_dart;
+void main() {
+  const String name = 'lab1';
+  final int startYear = 2026;
+  print('$name! started in $startYear');
 
-void main(List<String> arguments) {
-  print('Hello world: ${lab1_dart.calculate()}!');
 }
