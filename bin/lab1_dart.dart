@@ -1,8 +1,10 @@
-void main() 
-{
-  List<String> fruits2 = ['Яблоко', 'Банан', 'Вишня', 'Груша', 'Дыня']
-  for (var fruits in fruits2) 
-  {
-    print(fruits);
-  }
-}
+
+
+
+void main(){
+  List<int> numbers = [21, 1, 6, 5, 9, 3, 2, 4, 8, 7];
+numbers.sort((a,b) => b - a);
+print(numbers);
+
+
+} 
